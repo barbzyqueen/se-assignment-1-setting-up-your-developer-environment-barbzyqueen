@@ -52,3 +52,106 @@ Submit your document and GitHub repository link through the designated platform 
 - Adherence to submission guidelines and deadlines.
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+
+
+ANSWER:
+
+
+DOWNLOADING GIT:
+I searched for Git on my browser:
+   - I went to Git’s official website: https://git-scm.com/
+   - I clicked on the "Download" button and it provided the appropriate download link for my windows operating system
+
+Installing Git on Windows
+   - I located the downloaded .exe file and double-clicked to run the installer.
+   - I followed the setup wizard prompts. Click Next on the initial screen.
+   - I chose the default installation location and clicked Next.
+   - I ensured that "Git Bash Here" and "Git GUI Here" were selected for easier command-line access. Then clicked Next.
+   After completing the installation, I ensured Git was installed correctly by running git --version in the terminal.
+
+I found the process of downloading Git easy and did not encounter any difficulties.
+
+
+VISUAL STUDIO CODE INSTALLATION:
+This is the step-by-step process on how I downloaded and installed Visual Studio Code 
+
+   - I opened my web browser and searched for Visual Studio Code on the official website: https://code.visualstudio.com/download
+   - I chose the installation for 64 bit because my system is 64bit.
+   ![Dowload options for VS Code](download-options.png)
+
+Running the Visual Studio Code  Installer:
+
+   - I downloaded the VS Code installer (VSCodeSetup-x64-<version>.exe) to my computer.
+   - I located the downloaded installer file in my Downloads folder 
+   - Then I double-clicked  the installer file (VSCodeSetup-x64-<version>.exe) to launch the setup wizard.
+
+Accepting the License Agreement:
+   - The setup wizard opened with the license agreement screen. I read through the license terms and clicked the "I accept the agreement" option.
+   - Then I clicked "Next" to continue.
+   ![License Agreement for VS Code Installation](license-agreement.png)
+
+Selecting Installation Location:
+   - I chose the default location as my destination folder to install VS Code. 
+   - Then I clicked "Next" to continue.
+   ![Installation Location for VS Code](destination-location.png)
+
+
+Selecting Start Menu
+   - I used the default startup menu and also created shortcut on my desktop to access the software
+
+Selecting Additional Tasks:
+   - I registered VS Code as the default editor for supported file types and clicked "Next".
+
+Installation:
+   - After the setup wizard  displayed a summary of my installation preferences. I clicked "Install" to start the installation process.
+   - I waited for the installation to complete and for the  installer to copy all the necessary files to my computer.
+   - Once the installation was complete, I clicked "Finish" to exit the setup wizard.
+
+   ![Completing VS Code Installation](completing-setup.png)
+
+Installing Extensions:
+   - I searched for the Git extension icon in the Activity Bar on the side of the window and I ensured that I installed the Git extension by Microsoft.
+
+
+CONNECTING TO GITHUB REPOSITORY AND INITIALIZING WITH GIT
+
+I created a folder for  a new project on my local machine with a python file named: hello.py. 
+I wanted to push this repository to Github, so I  connected to my Github account using the commands:
+
+   - git config  - - global user.name [username]
+   - git remote add origin [https://github.com/yourusername/your-repo.git]
+
+Then I used the command: 'git init' to initialize it on Git Bash
+
+![Connecting to Github and initializing](git_init.png)
+
+Stage and Commit Changes:
+I wanted to stage and commit my new project folder (MayCohort) to the git folder. So I used the following commands in Git Bash:
+
+   - git add [filename]
+   - git commit -m “Message”
+
+![Staging and Commiting Changes on Git](stage_commit-1.png)
+
+Pushing local commits to the GitHub repository: 
+Finally, I pushed my local commits to my Github repository using the command below:
+git push -u origin main
+
+
+
+CHALLENGES
+
+One of the challenges I faced was remembering the commands to initialize the repository, to stage and also commit changes. I had to check for the right commands on YouTube. 
+
+I also found it difficult to navigate through Visual Studio Code at first. The interface has so many icons and it’s a bit overwhelming. It took a while for me to understand what the icons on the Activity bar were for. I also checked YouTube to get a better understanding of how to navigate it. I’m used to using simpler editors like Brackets and Sublime Text
+
+
+
+
+
+
+
+
+
+
+
